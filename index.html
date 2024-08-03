@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Actions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            word-break: break-word; /* Break long words for better readability */
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 1500px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Player Actions (Ban & Warn)</h1>
+        <table id="actionTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Action Type</th>
+                    <th>Player Name</th>
+                    <th>License</th>
+                    <th>HWIDs</th>
+                    <th>Reason</th>
+                    <th>Author</th>
+                    <th>Timestamp</th>
+                    <th>Expiration</th>
+                    <th>Revocation Timestamp</th>
+                    <th>Revocation Author</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
